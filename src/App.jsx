@@ -65,16 +65,18 @@ function useInView(threshold = 0.15) {
   return [ref, inView];
 }
 
-function AnimatedSection({ children, className = "", delay = 0 }) {
+function AnimatedSection({ children, className = "", delay = 0, style = {} }) {
   const [ref, inView] = useInView();
+  const isMobile = window.innerWidth < 900;
   return (
     <div
       ref={ref}
       className={className}
       style={{
-        opacity: inView ? 1 : 0,
-        transform: inView ? "translateY(0)" : "translateY(40px)",
-        transition: `opacity 0.8s ease ${delay}s, transform 0.8s ease ${delay}s`,
+        opacity: isMobile ? 1 : (inView ? 1 : 0),
+        transform: isMobile ? "none" : (inView ? "translateY(0)" : "translateY(40px)"),
+        transition: isMobile ? "none" : `opacity 0.8s ease ${delay}s, transform 0.8s ease ${delay}s`,
+        ...style,
       }}
     >
       {children}
