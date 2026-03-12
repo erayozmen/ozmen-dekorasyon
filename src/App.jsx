@@ -238,8 +238,8 @@ export default function App() {
         {/* Hero arka plan fotoğrafı — koyu, minimal, lüks iç mekan */}
         <div style={{
           position: "absolute", inset: 0,
-          backgroundImage: "url('https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=1920&q=75&auto=format')",
-          backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat",
+        backgroundImage: "url('https://www.e-a-a.com/wp-content/uploads/2024/12/Dark-Apartment-Design-Ideas-21.png.webp')",         
+        backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat",
         }} />
         {/* Güçlü overlay — fotoğrafı bastırır, metin okunabilir kalır */}
         <div style={{ position: "absolute", inset: 0, background: "linear-gradient(135deg, rgba(13,12,10,0.91) 0%, rgba(13,12,10,0.80) 50%, rgba(13,12,10,0.93) 100%)" }} />
