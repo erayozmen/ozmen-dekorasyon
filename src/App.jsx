@@ -209,8 +209,8 @@ export default function App() {
 
       {/* ═══ HERO ═══ */}
       <section id="anasayfa" style={{ minHeight: "100vh", position: "relative", overflow: "hidden" }}>
-        <div style={{ position: "absolute", inset: 0, background: "linear-gradient(135deg,#0D0C0A 0%,#1a1208 40%,#2a1f0e 70%,#0D0C0A 100%)" }} />
-        <div style={{ position: "absolute", inset: 0, background: "radial-gradient(ellipse 70% 60% at 60% 40%,rgba(201,169,110,0.13) 0%,transparent 60%),radial-gradient(ellipse 50% 70% at 20% 80%,rgba(107,79,58,0.16) 0%,transparent 50%)", transform: `translateY(${scrollY * 0.12}px)` }} />
+<div style={{ position: "absolute", inset: 0, backgroundImage: "url('https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=1920&q=80')", backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat" }} />
+<div style={{ position: "absolute", inset: 0, background: "linear-gradient(135deg, rgba(13,12,10,0.82) 0%, rgba(26,18,8,0.75) 40%, rgba(42,31,14,0.70) 70%, rgba(13,12,10,0.88) 100%)" }} />        <div style={{ position: "absolute", inset: 0, background: "radial-gradient(ellipse 70% 60% at 60% 40%,rgba(201,169,110,0.13) 0%,transparent 60%),radial-gradient(ellipse 50% 70% at 20% 80%,rgba(107,79,58,0.16) 0%,transparent 50%)", transform: `translateY(${scrollY * 0.12}px)` }} />
         <svg className="hero-svg" style={{ position: "absolute", right: 0, top: 0, height: "100%", width: "55%", opacity: 0.04 }} viewBox="0 0 500 800" preserveAspectRatio="xMidYMid slice">
           <line x1="0" y1="0" x2="500" y2="800" stroke={G} strokeWidth="1" />
           <line x1="100" y1="0" x2="600" y2="800" stroke={G} strokeWidth="0.5" />
