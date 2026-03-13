@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Ana Sayfa -->
+  <url>
+    <loc>https://www.ozmendekorasyon.com/</loc>
+    <lastmod>2026-03-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Hizmetler -->
+  <url>
+    <loc>https://www.ozmendekorasyon.com/#hizmetler</loc>
+    <lastmod>2026-03-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Projeler -->
+  <url>
+    <loc>https://www.ozmendekorasyon.com/#projeler</loc>
+    <lastmod>2026-03-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Nasıl Çalışıyoruz -->
+  <url>
+    <loc>https://www.ozmendekorasyon.com/#surec</loc>
+    <lastmod>2026-03-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Hakkımızda -->
+  <url>
+    <loc>https://www.ozmendekorasyon.com/#hakkımızda</loc>
+    <lastmod>2026-03-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- İletişim -->
+  <url>
+    <loc>https://www.ozmendekorasyon.com/#iletişim</loc>
+    <lastmod>2026-03-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+</urlset>
